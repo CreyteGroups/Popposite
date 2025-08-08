@@ -1594,6 +1594,11 @@
                                             <i class="fas fa-times-circle"></i>
                                             No Maintainance Service
                                         </li>
+
+                                        <li>
+                                            <i class="fas fa-check-circle"></i>
+                                            Free 5 month hosting Service
+                                        </li>
                                     </ul>
                                     <div class="pricing-actions">
                                         <a href="#order" class="btn btn-outline"
@@ -1633,6 +1638,11 @@
                                         <li>
                                             <i class="fas fa-check-circle"></i>
                                             Free 5 Month Maintainance Service
+                                        </li>
+
+                                        <li>
+                                            <i class="fas fa-check-circle"></i>
+                                            Free 5 year hosting Service
                                         </li>
                                     </ul>
                                     <div class="pricing-actions">
@@ -1675,11 +1685,12 @@
 
                                         <li>
                                             <i class="fas fa-check-circle"></i>
-                                            Free Unlimited Maintainance Service
+                                            Free 2 year Maintainance Service
                                         </li>
+
                                         <li>
                                             <i class="fas fa-check-circle"></i>
-                                            Free Hosting Setup 5 years
+                                            Free lifetime month hosting Service
                                         </li>
                                     </ul>
                                     <div class="pricing-actions">
@@ -1702,117 +1713,14 @@
                         <div class="attention-content">
                             <h3>Limited Time Offer!</h3>
                             <p>
-                                This discount is valid for a limited time only, so act
-                                quickly to take advantage of the lower price.
+                                This discount is valid for a limited time only,
+                                so act quickly to take advantage of the lower
+                                price.
                             </p>
                         </div>
                     </div>
 
                     <!-- Hosting Plans -->
-
-                    <div class="pricing-section active" id="basic-section">
-                        <div class="pricing-section-header">
-                            <h3 class="pricing-section-title">
-                                Hosting Packages
-                            </h3>
-                            <div class="pricing-section-toggle">
-                                <i class="fas fa-chevron-down"></i>
-                            </div>
-                        </div>
-                        <div class="pricing-section-content active">
-                            <div class="pricing-grid">
-                                <div class="pricing-card animate-on-scroll">
-                                    <div class="pricing-header">
-                                        <h3 class="pricing-title">Basic</h3>
-                                        <div class="price">
-                                            900 <span>ETB/6 month</span>
-                                        </div>
-                                        <p>Perfect for new creators</p>
-                                    </div>
-                                    <ul class="pricing-features">
-                                        <li>
-                                            <i class="fas fa-check-circle"></i>
-                                            6 Month of Stable Hosting
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-check-circle"></i>
-                                            For Basic Users
-                                        </li>
-
-                                        <li>
-                                            <i class="fas fa-check-circle"></i>
-                                            Free Setup
-                                        </li>
-                                    </ul>
-                                    <div class="pricing-actions">
-                                        <a href="#order" class="btn btn-outline"
-                                            >Select Plan</a
-                                        >
-                                    </div>
-                                </div>
-
-                                <div class="pricing-card animate-on-scroll">
-                                    <div class="pricing-header">
-                                        <h3 class="pricing-title">Premium</h3>
-                                        <div class="price">
-                                            1,500<span>ETB/1 yr</span>
-                                        </div>
-                                        <p>Best for growing creators</p>
-                                    </div>
-                                    <ul class="pricing-features">
-                                        <li>
-                                            <i class="fas fa-check-circle"></i>
-                                            1 Year Of Reliable Hosting
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-check-circle"></i>
-                                            Great Value For Serious Users
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-check-circle"></i>
-                                            Free Setup
-                                        </li>
-                                    </ul>
-                                    <div class="pricing-actions">
-                                        <a href="#order" class="btn btn-primary"
-                                            >Select Plan</a
-                                        >
-                                    </div>
-                                </div>
-
-                                <div
-                                    class="pricing-card featured animate-on-scroll"
-                                >
-                                    <div class="pricing-header">
-                                        <h3 class="pricing-title">VIP</h3>
-                                        <div class="price">
-                                            2,000 <span>ETB/2 yr</span>
-                                        </div>
-                                        <p>For top creators & agencies</p>
-                                    </div>
-                                    <ul class="pricing-features">
-                                        <li>
-                                            <i class="fas fa-check-circle"></i>
-                                            2 Years Of Premium Hosting
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-check-circle"></i>
-                                            Free Additional 5 Month
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-check-circle"></i>
-                                            Free Setup
-                                        </li>
-                                    </ul>
-                                    <div class="pricing-actions">
-                                        <a href="#order" class="btn btn-outline"
-                                            >Select Plan</a
-                                        >
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </section>
         </main>
@@ -1912,23 +1820,6 @@
                             >
                                 <option value="" disabled selected>
                                     Select Building Package
-                                </option>
-                                <option value="Basic">Basic</option>
-                                <option value="Premium">Premium</option>
-                                <option value="VIP">VIP</option>
-                            </select>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="host">Hosting Package</label>
-                            <select
-                                id="host"
-                                name="host"
-                                class="form-control"
-                                
-                            >
-                                <option value="" disabled selected>
-                                    Select Hosting Package
                                 </option>
                                 <option value="Basic">Basic</option>
                                 <option value="Premium">Premium</option>
@@ -2161,7 +2052,6 @@
 
 📱 *Preferred Contact:* ${contact}
 🏗️ *Building Package:* ${build}
-💾 *Hosting Package:* ${host}
 
 📝 *Additional Details:*
 ${message || "_None_"}
