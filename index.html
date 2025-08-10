@@ -1760,17 +1760,7 @@
                             />
                         </div>
 
-                        <div class="form-group">
-                            <label for="email">E-mail</label>
-                            <input
-                                type="email"
-                                id="email"
-                                name="email"
-                                class="form-control"
-                                placeholder="Enter your E-mail"
-                                required
-                            />
-                        </div>
+                        
 
                         <div class="form-group">
                             <label for="phoneNumber">Phone Number</label>
@@ -1996,7 +1986,7 @@
                         .replace("@", "")
                         .trim();
                     const phoneNumber = formData.get("phoneNumber");
-                    const email = formData.get("email");
+                    
                     const contact = "Telegram";
                     const build = formData.get("build");
                     const host = formData.get("host");
@@ -2023,7 +2013,6 @@
 🎥 *Poppo Username:* ${username}
 📲 *Telegram:* @${telegramUsername}
 📞 *Phone Number:* ${phoneNumber}
-📧 *Email:* ${email}
 
 📱 *Preferred Contact:* ${contact}
 🏗️ *Building Package:* ${build}
